@@ -1,8 +1,6 @@
-# Udacity Blockchain Capstone
+# House Marketplace Capstone Project
 
-There are two versions of the project that I made. "master" has the completed boilerplate code along with the required tests as found in the rubric for this project. However, when I attempted to submit these contracts to OpenSea, they were not ERC721 compliant. That is why I made the "opensea-submission" version which imports openzeppelin's ERC721 contracts and is compliant to OpenSea while still using zokrates.
-
-Use the 'mint.js' script to add an additional token to the marketplace.
+This project is a Custom ERC721 token which represents a house that is open for sale. It also uses zokrates to verify the seller's function call to mint a new token.
 
 ## Contract Addresses
 CustomERC721Token: 0x500754D6C8eB542F5249B625D14686b62a69E088
